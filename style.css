@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #111;
+    color: #fff;
+    padding: 2rem 8rem 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .hero-container {
+    margin: 2rem 3rem 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left img {
+    width: 725px;
+  }
+  
+  .hello-text {
+    color: #ff3b3b;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .heading-text {
+    font-size: 5rem;
+  }
+  
+  .description {
+    color: #d5d5d5;
+  }
+  
+  .hero-btn {
+    margin-top: 2rem;
+  }
+  
+  .main-btn {
+    padding: 0.9rem 3rem;
+    font-size: 1.1rem;
+    background: #ff3b3b;
+    border: none;
+    color: #fff;
+  }
+  
+  .showcase-container {
+    background: #35353532;
+    margin: 0 -8rem;
+    padding-bottom: 4rem;
+  }
+  
+  .top-showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 5rem 12rem;
+  }
+  
+  .card {
+    background-color: #212121;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .icon svg {
+    height: 300px;
+    position: absolute;
+    top: -6rem;
+    left: -2.5rem;
+  }
+  .icon img {
+    position: absolute;
+  }
+  
+  .title {
+    margin-top: 6rem;
+  }
+  
+  .know-more {
+    color: #ff3b3b;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+  }
+  
+  .card .know-more {
+    margin: 2rem 0 0;
+  }
+  
+  .bottom-showcase {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+  
+  .experience-years {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #ff3b3b;
+    line-height: 1;
+  }
+  
+  .experience-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+  
+  .red-card {
+    background: #c91b28;
+  }
+  .red-card .know-more {
+    color: #fff;
+  }
+  .count {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ff3b3b;
+  }
+  
+  .showcase-card {
+    padding: 2rem 8rem;
+    text-align: center;
+  }
+  
+  .projects-container {
+    margin: 0 10rem;
+  }
+  
+  .project-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+  }
+  
+  .project img {
+    width: 500px;
+  }
+  
+  .project-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1rem 0 0.2rem;
+  }
+  
+  .letswork-container {
+    padding: 4rem 3rem;
+    margin: 5rem 0;
+    background-color: #212121;
+  
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+  }
+  
+  .work-title {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1.2rem;
+  }
+  
+  .footer-links {
+    justify-content: center;
+    color: #d5d5d5;
+    margin-bottom: 3rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background: #212121;
+    padding: 2rem 12rem;
+    margin: 0 -8rem;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    position: relative;
+    right: 60px;
+  }
+  
+  .social img {
+    width: 32px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background: #111;
+      color: #fff;
+      padding: 1rem;
+    }
+  
+    li {
+      list-style: none;
+    }
+  
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .nav-link:not(.contact) {
+      display: none;
+    }
+  
+    .hero-container {
+      margin: 0;
+      display: flex;
+      flex-direction: column-reverse;
+      height: 100vh;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .left img {
+      width: 400px;
+    }
+  
+    .hello-text {
+      color: #ff3b3b;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+  
+    .heading-text {
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  
+    .description {
+      color: #d5d5d5;
+    }
+  
+    .hero-btn {
+      margin-top: 2rem;
+    }
+  
+    .main-btn {
+      padding: 0.6rem 1.2rem;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      background: #ff3b3b;
+      border: none;
+      color: #fff;
+    }
+  
+    .showcase-container {
+      background: #35353532;
+      margin: -1rem;
+      padding-bottom: 0;
+    }
+  
+    .top-showcase {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      padding: 0;
+    }
+  
+    .card {
+      background-color: #212121;
+      padding: 1rem;
+      position: relative;
+    }
+  
+    .icon svg {
+      height: 300px;
+      position: absolute;
+      top: -6rem;
+      left: -2.5rem;
+    }
+    .icon img {
+      position: absolute;
+    }
+  
+    .title {
+      margin-top: 6rem;
+    }
+  
+    .know-more {
+      color: #ff3b3b;
+      background: transparent;
+      border: none;
+      font-size: 1.1rem;
+    }
+  
+    .card .know-more {
+      margin: 2rem 0 0;
+    }
+  
+    .bottom-showcase {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .first-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 2rem;
+    }
+  
+    .experience-years {
+      font-size: 6rem;
+      font-weight: 700;
+      color: #ff3b3b;
+      line-height: 1;
+    }
+  
+    .experience-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0rem;
+    }
+  
+    .red-card {
+      background: #c91b28;
+    }
+    .red-card .know-more {
+      color: #fff;
+    }
+    .count {
+      font-size: 4rem;
+      font-weight: 600;
+      color: #ff3b3b;
+    }
+  
+    .showcase-card {
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    .projects-container {
+      margin: 0;
+    }
+  
+    .project-top {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      margin: 2rem 0;
+      gap: 1rem;
+    }
+  
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      place-items: center;
+    }
+  
+    .project img {
+      width: 100%;
+    }
+  
+    .project-title {
+      font-weight: 700;
+      font-size: 1.5rem;
+      margin: 1rem 0 0.2rem;
+    }
+  
+    .letswork-container {
+      padding: 2rem;
+      margin: 0;
+      margin-top: 2rem;
+      background-color: #212121;
+  
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+  
+    .work-title {
+      font-size: 3rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+  
+    .footer-links {
+      justify-content: flex-end;
+      color: #d5d5d5;
+      margin-bottom: 3rem;
+    }
+  
+    footer {
+      display: flex;
+      justify-content: space-evenly;
+      background: #212121;
+      padding: 1rem;
+      margin: 0;
+    }
+  
+    .socials {
+      display: flex;
+      gap: 0.5rem;
+      position: static;
+    }
+  
+    .social img {
+      width: 24px;
+    }
+  } ;
